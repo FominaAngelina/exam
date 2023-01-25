@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Mulish:wght@600;700&family=Nunito:ital,wght@0,300;1,700&family=Sevillana&display=swap');
+
+:root {
+    --orange:#DE131E;
+    --white: #FFFFFF;
+    font-size: 62.5%;
+    min-width: 360px;
+    max-width: 2560px;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    background-color: black;
+}
+
+.background {
+    
+}
+
+p{
+    color: var(--white)
+}
+
+a{
+    text-decoration: none;
+}
+
+.track{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.p-orange{
+    font-style: italic;
+    font-weight: 700;
+    color: var(--orange);
+}
+
+@media all and (min-width: 1500px){
+
+}
