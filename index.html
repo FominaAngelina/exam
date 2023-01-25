@@ -35,8 +35,22 @@
         </div>
         <button class="but-send"><p class="text-but">Заказать</p></button>
     </section>
+    <p><img src="Image/mouse.svg" alt="mouse" class="mouse"></p>
     <section>
-
+        <form name="Заказ билета" method="POST" action="//httpbin.org/post">
+            <h1> Задание 2</h1>
+            <p><label>Город*:</label></p>
+            <input type="text" placeholder="Город" name="City" required>
+            <p><label>Количество билетов:</label></p>
+            <input type="number" placeholder="Кол-во билетов" name="Tickets" required>
+            <p><label>Направление</label></p>
+            <div class="MF">
+                <p><label><input type="checkbox" name="В одну сторону">Только туда</label>
+                <p><label><input type="checkbox" name="Туда-обратно">Туда и обратно</label</p>
+            </div>
+            <button type="submit" class="Resert"><p>Submit</p><img src="Image/done_FILL0_wght400_GRAD0_opsz48.svg"></button>
+            <button type="reset" class="Resert"><p>Resert</p><img src="Image/close_FILL0_wght400_GRAD0_opsz48.svg"></button>
+        </form>
     </section>
     
 </body>
