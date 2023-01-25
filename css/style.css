@@ -155,12 +155,12 @@ input:hover{
     text-decoration: underline;
 }
 
-button:focus{
+.Resert:focus{
     background-color: aqua;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-button:hover{
+.Resert:hover{
     background-color: #FFCCCC;
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
